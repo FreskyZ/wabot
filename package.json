@@ -1,0 +1,19 @@
+{
+  "name": "wabot",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "personal bot service based on go-cqhttp",
+  "main": "build/index.mjs",
+  "scripts": {
+    "start": "node_modules/typescript/bin/tsc --project tsconfig.json && node build/index.mjs"
+  },
+  "author": "",
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "@types/ws": "^8.5.3",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "ws": "^8.8.0"
+  }
+}
